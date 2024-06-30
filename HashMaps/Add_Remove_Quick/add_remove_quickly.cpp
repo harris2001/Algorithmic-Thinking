@@ -48,11 +48,11 @@ vector<int> solve(vector<int> items, vector<int>queries){
 			items.push_back(q);
 			deleted.push_back(false);
 		}
-		for(int i=0; i<items.size(); i++){
-			if(!deleted[i])
-				printf("%d ",items[i]);
-		}
-		printf("\n");
+	//	for(int i=0; i<items.size(); i++){
+	//		if(!deleted[i])
+	//			printf("%d ",items[i]);
+	//	}
+	//	printf("\n");
 	}
 	vector<int> solution;
 	for(int i=0; i<deleted.size(); i++){
